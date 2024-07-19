@@ -5,7 +5,7 @@
 */
 
 function isAnagram(str1, str2){
-    if (str1.lenght != str2.lenght){
+    if (str1.length != str2.length){
       return false;
     }
     // converting string to lower case to counter uppercase alphabets 
