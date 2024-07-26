@@ -1,6 +1,6 @@
-// ## Create a counter in JavaScript
-// It should go up as time goes by in intervals of 1 second
-// We are assuming that the counter is till 100. 
+// ## Counter without setInterval
+// Without using setInterval, try to code a counter in Javascript. 
+// We are assuming that the counter is till 100.
 
 function counter(n){
     for(let i = 0; i <= n; i++){
