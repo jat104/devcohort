@@ -65,7 +65,7 @@ app.delete("/", function(req, res) {
             msg: "removed unhealthy kidney"
             });
         } else {
-            res.json({
+            res.status(411).json({
             msg: "No Unhealthy Kidney"
             });
         }
